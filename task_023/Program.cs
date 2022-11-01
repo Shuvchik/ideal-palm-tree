@@ -9,11 +9,12 @@ void cube(int N)
 
     if (N > 0)
     {
-        while (count <= N)
+        while (count < N)
         {
-            Console.Write(Math.Pow(count, 3) + " ");
+            Console.Write(Math.Pow(count, 3) + ", ");
             count++;
         }
+        Console.Write(Math.Pow(N, 3));
     }
     else if (N < 0)
     {
