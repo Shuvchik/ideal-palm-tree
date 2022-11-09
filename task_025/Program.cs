@@ -38,4 +38,4 @@ exponentiation(numA, numB);
 // Console.Write("Введите ещё число: ");
 // int numB = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine(Math.Pow(numA, numB));
+// Console.WriteLine(Math.Pow(numA, Math.Abs(numB)));
